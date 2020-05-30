@@ -1,6 +1,5 @@
-D:\DotNetPracticals\Practical2\bin\Debug\Practical2.exe.config
-D:\DotNetPracticals\Practical2\bin\Debug\Practical2.exe
-D:\DotNetPracticals\Practical2\bin\Debug\Practical2.pdb
-D:\DotNetPracticals\Practical2\obj\Debug\Practical2.csprojAssemblyReference.cache
-D:\DotNetPracticals\Practical2\obj\Debug\Practical2.exe
-D:\DotNetPracticals\Practical2\obj\Debug\Practical2.pdb
+D:\DotNetPracticals\Practical1\bin\Debug\Practical1.exe.config
+D:\DotNetPracticals\Practical1\bin\Debug\Practical1.exe
+D:\DotNetPracticals\Practical1\bin\Debug\Practical1.pdb
+D:\DotNetPracticals\Practical1\obj\Debug\Practical1.exe
+D:\DotNetPracticals\Practical1\obj\Debug\Practical1.pdb

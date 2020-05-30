@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{61FCCC6F-E21C-4267-82DD-5BA988A66CC6}</ProjectGuid>
+    <ProjectGuid>{C76E1E44-879E-4D18-B2CC-EF6DE32A1B97}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Practical8</RootNamespace>
-    <AssemblyName>Practical8</AssemblyName>
+    <RootNamespace>Practical</RootNamespace>
+    <AssemblyName>Practical</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

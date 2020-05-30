@@ -3,34 +3,81 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Text.RegularExpressions;
 
-namespace Practical3
+namespace Practical2
 {
     class Program
     {
+        static void Pattern1()
+        {
+            Console.WriteLine("Pattern 1");
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine();
+                for (int j = 1; j <= 5; j++)
+                {
+                    Console.Write("*");
+                }
+            }
+        }
+        static void Pattern2()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Pattern 2");
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine();
+                for (int j = 1; j <= i; j++)
+                    Console.Write("*");
+            }
+        }
+        static void Pattern3()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Pattern 3");
+            for (int i = 1; i <= 5; i++)
+            {
+                Console.WriteLine();
+                for (int j = 5; j > i; j--)
+                    Console.Write(" ");
+                for (int k = 1; k <= i; k++)
+                    Console.Write("*");
+            }
+        }
+        static void Pattern4()
+        {
+            Console.WriteLine();
+            Console.WriteLine("Pattern 4");
+            for (int i = 1; i <= 4; i++)
+            {
+                Console.WriteLine();
+                for (int j = 4; j > i; j--)
+                    Console.Write(" ");
+                for (int k = 1; k <= i; k++)
+                    Console.Write("* ");
+            }
+            for (int i = 3; i >= 1; i--)
+            {
+                Console.WriteLine();
+                for (int j = 3; j > i; j--)
+                    Console.Write(" ");
+                for (int k = 1; k <= i; k++)
+                    Console.Write(" *");
+            }
+        }
         static void Main(string[] args)
         {
-            string pattern, name, country;
-            pattern = @"[a-zA-Z]+";
-            Match match;
-            do
-            {
-                Console.Write("Enter your name : ");
-                name = Console.ReadLine();
-                match = Regex.Match(name, pattern);
+            Pattern1();
+            Pattern2();
+            Pattern3();
+            Pattern4();
 
-            } while (!match.Success);
+            /*int x = 42, y = 12, w;
+            object o;
+            o = x;
+            w = y * (int)o;
+            Console.WriteLine(w);*/
 
-            do
-            {
-                Console.Write("Enter your country name : ");
-                country = Console.ReadLine();
-                match = Regex.Match(country, pattern);
-
-            } while (!match.Success);
-
-            Console.WriteLine("Hello " + name + ", Welcome to " + country);
             Console.Read();
         }
     }
