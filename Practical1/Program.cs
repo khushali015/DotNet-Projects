@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Practical1
+namespace Practical2
 {
     class Program
     {
@@ -48,15 +48,15 @@ namespace Practical1
         {
             Console.WriteLine();
             Console.WriteLine("Pattern 4");
-            for (int i=1;i<=4;i++)
+            for (int i = 1; i <= 4; i++)
             {
                 Console.WriteLine();
-                for(int j=4;j>i;j--)
+                for (int j = 4; j > i; j--)
                     Console.Write(" ");
-                for(int k=1;k<=i;k++)
+                for (int k = 1; k <= i; k++)
                     Console.Write("* ");
             }
-            for(int i=3;i>=1;i--)
+            for (int i = 3; i >= 1; i--)
             {
                 Console.WriteLine();
                 for (int j = 3; j > i; j--)
@@ -71,7 +71,13 @@ namespace Practical1
             Pattern2();
             Pattern3();
             Pattern4();
-            
+
+            /*int x = 42, y = 12, w;
+            object o;
+            o = x;
+            w = y * (int)o;
+            Console.WriteLine(w);*/
+
             Console.Read();
         }
     }
